@@ -1,0 +1,116 @@
+page-home {
+
+  .row-no-wrap {
+    flex-wrap: nowrap;
+  }
+  
+  #gridCard{
+    text-align: center;
+  }
+
+  :root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+  }
+  
+  ion-col > div {
+    background-color: white;
+    border: solid 1px black;
+    padding: 2px;
+    margin: 0px;
+  }
+
+  #span-bold-font{
+    font-weight: bold;
+  }
+
+  #span-simple-size-font {
+    font-size: 2.9rem;
+  }
+
+  #span-bold-size-font{
+    font-size: 2.9rem;
+    font-weight: bold;
+  }
+
+  .ion-row-headers > div {
+    border:none;
+  }
+
+  .img-teamFlag {
+    max-width: 50px;
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+  }
+
+  .ion-select-score {
+    font-size: 3.9em;
+    max-width: 100%;
+    align-self: center;
+    padding: 0px 0px 0px 0px;
+    width: 50px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    align-items: center;
+    color: white;
+  }
+
+  .p0 {
+    padding: 0px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .select-icon {
+    display: none;
+  }
+
+  .select-icon-inner {
+    display: none;
+  }
+
+  .span-center {
+    align-self: center;    
+  }
+
+  .ion-select-bgc {
+    background-color: #d49a9a;
+  }
+
+  .dots-min-width {
+    max-width: min-content;
+    color: maroon;
+  }
+
+  .pipe-font {
+    font-size: 2em;
+    margin: -13px 0px 0px 0px;
+    font-family: initial;
+  }
+
+  .div-title-margin {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .img-greater-than {
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+  }
+
+  .img-accept-decline {
+    max-width: 50px;
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+  }
+
+}

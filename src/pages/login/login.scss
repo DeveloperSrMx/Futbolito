@@ -1,0 +1,80 @@
+page-login {
+  .item-md {
+    background: transparent;
+  }
+  
+  .item-ios {
+    background: transparent;
+  }
+  
+  ion-grid {
+    height: 100%;
+    justify-content: flex-end;
+  }
+  
+  .login-container {
+    background-color: rgba(256,256,256,.60);
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+  }
+  
+  .div-register {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 15px !important;
+    padding-top: 15px !important;
+  }
+  
+  .btn-iniciar-sesion {
+    background-color: rgba(4, 4, 4, 0.9);
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: x-large !important;
+    font-weight: bold;
+    height: 45px;
+  }
+  
+  .div-email-register {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+  
+  .button-email-register {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    color: black;
+  }
+  
+  .div-google-register {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 8px !important;
+    padding-top: 0px !important;
+  }
+  
+  .button-google-register {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    background-color: #db4a39;
+  }
+  
+  .div-facebook-register {
+    margin-bottom: 8px !important;
+    padding-bottom: 8px !important;
+    margin-top: 8px !important;
+    padding-top: 0px !important;
+  }
+  
+  .button-facebook-register {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    background-color: #39569c;
+  }
+}

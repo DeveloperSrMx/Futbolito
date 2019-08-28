@@ -1,0 +1,25 @@
+
+<ion-content id="login">
+    
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        <div class="div-register" padding>
+          <button disabled="true" ion-button block class="btn-iniciar-sesion"><span id="span-iniciar-sesion">Iniciar sesión</span></button>
+        </div>
+        <div class="login-container">
+          <div class="div-email-register" padding>
+              <button ion-button block class="button-email-register" (click)="goToSignup();">Registrate con tu correo</button>
+          </div>
+          <div class="div-google-register" padding>
+              <button ion-button block class="button-google-register">Registrate con Google</button>
+          </div>
+          <div class="div-facebook-register" padding>
+              <button ion-button block class="button-facebook-register" (click)="loginWithFacebook();" >Registrate con Facebook</button>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+      
+</ion-content>

@@ -1,0 +1,194 @@
+<ion-header>
+  <ion-navbar padding>  
+  </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div id="gridCard">
+      <ion-grid>
+        <ion-row class="row-no-wrap">
+          <div class="div-title-margin">
+            <span id="span-simple-size-font">Confirmar</span> 
+            <span id="span-bold-size-font">Resultados</span>
+          </div>
+        </ion-row>
+        <ion-row class="row-no-wrap">
+          <ion-col class="ion-row-headers">
+            <div><span>Mi </span><span id="span-bold-font">Equipo</span></div>
+          </ion-col>
+          <ion-col class="flex dots-min-width pipe-font">
+            <span class="span-center">|</span>
+          </ion-col>
+          <ion-col class="ion-row-headers">
+            <div>Contrario</div>
+          </ion-col>
+          <ion-col class="ion-row-headers">
+            <div>12/12/2019</div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="row-no-wrap">
+          <ion-col size="1" class="flex">
+            <img class="img-teamFlag" src="../../assets/1x1/ad.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <ion-select class="ion-select-score ion-select-bgc">
+              <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                {{val.label}}
+              </ion-option>
+            </ion-select>
+          </ion-col>
+          <ion-col size="1" class="flex ion-select-score dots-min-width">
+            <span class="span-center">:</span>
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <ion-select class="ion-select-score ion-select-bgc">
+              <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                {{val.label}}
+              </ion-option>
+            </ion-select>
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <img class="img-teamFlag" src="../../assets/1x1/ag.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-greater-than">
+            <img class="img-greater-than" src="../../assets/imgs/greater.jpg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-accept-decline">
+            <img class="img-accept-decline" src="../../assets/imgs/success.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-accept-decline">
+            <img class="img-accept-decline" src="../../assets/imgs/error.svg" alt="">
+          </ion-col>  
+        </ion-row>
+
+        <ion-row class="row-no-wrap">
+          <ion-col size="1" class="flex">
+            <img class="img-teamFlag" src="../../assets/1x1/ao.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <ion-select class="ion-select-score ion-select-bgc">
+              <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                {{val.label}}
+              </ion-option>
+            </ion-select>
+          </ion-col>
+          <ion-col size="1" class="flex ion-select-score dots-min-width">
+            <span class="span-center">:</span>
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <ion-select class="ion-select-score ion-select-bgc">
+              <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                {{val.label}}
+              </ion-option>
+            </ion-select>
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <img class="img-teamFlag" src="../../assets/1x1/af.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-greater-than">
+            <img class="img-greater-than" src="../../assets/imgs/greater.jpg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-accept-decline">
+            <img class="img-accept-decline" src="../../assets/imgs/success.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-accept-decline">
+            <img class="img-accept-decline" src="../../assets/imgs/error.svg" alt="">
+          </ion-col>  
+        </ion-row>
+
+        <ion-row class="row-no-wrap">
+          <ion-col size="1" class="flex">
+            <img class="img-teamFlag" src="../../assets/1x1/az.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <ion-select class="ion-select-score ion-select-bgc">
+              <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                {{val.label}}
+              </ion-option>
+            </ion-select>
+          </ion-col>
+          <ion-col size="1" class="flex ion-select-score dots-min-width">
+            <span class="span-center">:</span>
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <ion-select class="ion-select-score ion-select-bgc">
+              <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                {{val.label}}
+              </ion-option>
+            </ion-select>
+          </ion-col>
+          <ion-col size="1" class="flex">
+            <img class="img-teamFlag" src="../../assets/1x1/al.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-greater-than">
+            <img class="img-greater-than" src="../../assets/imgs/greater.jpg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-accept-decline">
+            <img class="img-accept-decline" src="../../assets/imgs/success.svg" alt="">
+          </ion-col>
+          <ion-col size="1" class="flex img-accept-decline">
+            <img class="img-accept-decline" src="../../assets/imgs/error.svg" alt="">
+          </ion-col>  
+        </ion-row>
+
+        <ion-row class="row-no-wrap">
+            <div class="div-title-margin">
+              <span id="span-simple-size-font">Confirmar</span> 
+              <span id="span-bold-size-font">Resultados</span>
+            </div>
+          </ion-row>
+          <ion-row class="row-no-wrap">
+            <ion-col class="ion-row-headers">
+              <div><span>Mi </span><span id="span-bold-font">Equipo</span></div>
+            </ion-col>
+            <ion-col class="flex dots-min-width pipe-font">
+              <span class="span-center">|</span>
+            </ion-col>
+            <ion-col class="ion-row-headers">
+              <div>Contrario</div>
+            </ion-col>
+            <ion-col class="ion-row-headers">
+              <div>12/12/2019</div>
+            </ion-col>
+          </ion-row>
+  
+          <ion-row class="row-no-wrap">
+            <ion-col size="1" class="flex">
+              <img class="img-teamFlag" src="../../assets/1x1/ai.svg" alt="">
+            </ion-col>
+            <ion-col size="1" class="flex">
+              <ion-select class="ion-select-score ion-select-bgc">
+                <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                  {{val.label}}
+                </ion-option>
+              </ion-select>
+            </ion-col>
+            <ion-col size="1" class="flex ion-select-score dots-min-width">
+              <span class="span-center">:</span>
+            </ion-col>
+            <ion-col size="1" class="flex">
+              <ion-select class="ion-select-score ion-select-bgc">
+                <ion-option *ngFor="let val of values" [value]="val.value" [selected]="val.value == 0">
+                  {{val.label}}
+                </ion-option>
+              </ion-select>
+            </ion-col>
+            <ion-col size="1" class="flex">
+              <img class="img-teamFlag" src="../../assets/1x1/li.svg" alt="">
+            </ion-col>
+            <ion-col size="1" class="flex img-greater-than">
+              <img class="img-greater-than" src="../../assets/imgs/greater.jpg" alt="">
+            </ion-col>
+            <ion-col size="1" class="flex img-accept-decline">
+              <img class="img-accept-decline" src="../../assets/imgs/success.svg" alt="">
+            </ion-col>
+            <ion-col size="1" class="flex img-accept-decline">
+              <img class="img-accept-decline" src="../../assets/imgs/error.svg" alt="">
+            </ion-col>  
+          </ion-row>
+        
+      </ion-grid>
+    </div>    
+
+</ion-content>
